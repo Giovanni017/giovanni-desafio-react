@@ -58,7 +58,7 @@ Editor utilizado [VSCode](https://code.visualstudio.com/)
 ```bash
 
 # Clone este repositório
-$ git clone https://gitlab.com/brenohenrique098/desafioatlas.git
+
 
 # Acesse a pasta do projeto no terminal/cmd
 $ cd desafioatlas/app
