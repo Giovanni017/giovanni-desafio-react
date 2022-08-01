@@ -29,19 +29,31 @@ Desafio React - Desenvolver uma aplicação react que mostre o perfil do desenvo
 
 ## 🎨 Layout
 ### Web
+<<<<<<< HEAD
 <div align="center" style="display: flex; align-items: flex-start; justify-content: start;">
   <img alt="StartScreen" src="./assets/Screenshot_1.jpg" width="400px" style="margin-right: 15px">
   <img alt="StartProfile" src="./assets/Screenshot_3.jpg" width="400px">
 </div>
 
+=======
+![Screenshot_1](https://user-images.githubusercontent.com/92633222/182223083-f452a677-9c5d-419e-8842-5bdfa812b3a4.jpg)
+<br/>
+![Screenshot_3](https://user-images.githubusercontent.com/92633222/182223131-a90b3be2-902e-442a-a608-3959d4ffbc19.jpg)
+>>>>>>> da6d19002536885108c66a03ae162355b891ad17
 
 <br/>
 
 ### Mobile (responsivo)
+<<<<<<< HEAD
 <div align="center" style="display: flex; align-items: flex-start; justify-content: start;">
   <img alt="StartScreen" src="./assets/Screenshot_2.jpg" width="400px" style="margin-right: 15px">
   <img alt="StartProfile" src="./assets/Screenshot_4.jpg" width="400px">
 </div>
+=======
+![Screenshot_2](https://user-images.githubusercontent.com/92633222/182223200-f22484c5-0f25-49a9-aca2-18c5f78ee1ac.jpg)
+<br/>
+![Screenshot_4](https://user-images.githubusercontent.com/92633222/182223275-cef13fd4-55d9-4940-9a5a-8d042654baa3.jpg)
+>>>>>>> da6d19002536885108c66a03ae162355b891ad17
 
 
 ---
