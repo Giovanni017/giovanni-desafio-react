@@ -29,13 +29,19 @@ Desafio React - Desenvolver uma aplicação react que mostre o perfil do desenvo
 
 ## 🎨 Layout
 ### Web
-
+<div align="center" style="display: flex; align-items: flex-start; justify-content: start;">
+  <img alt="StartScreen" src="./assets/Screenshot_1.jpg" width="400px" style="margin-right: 15px">
+  <img alt="StartProfile" src="./assets/Screenshot_3.jpg" width="400px">
+</div>
 
 
 <br/>
 
 ### Mobile (responsivo)
-
+<div align="center" style="display: flex; align-items: flex-start; justify-content: start;">
+  <img alt="StartScreen" src="./assets/Screenshot_2.jpg" width="400px" style="margin-right: 15px">
+  <img alt="StartProfile" src="./assets/Screenshot_4.jpg" width="400px">
+</div>
 
 
 ---

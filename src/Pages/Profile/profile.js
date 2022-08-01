@@ -39,7 +39,7 @@ export default function Profile() {
 
     return (
         <>
-            <div className="container-fluid vh-100 p-4">
+            <div className="container-fluid vh-100 p-2">
                 <div className='row'>
                     <div className='col-12 col-md-4'>
                         <div className="card border-0">
@@ -48,8 +48,8 @@ export default function Profile() {
                                     <img 
                                         src={profile.avatar_url} 
                                         alt="Avatar" 
-                                        className='img-fluid img-thumbnail rounded-circle'
-                                        style={{ maxWidth: 230 }}
+                                        className='img-fluid rounded-circle'
+                                        style={{ maxWidth: 250 }}
                                     />
                                 </div>
 
@@ -57,7 +57,7 @@ export default function Profile() {
                                     { profile.name }
                                 </h4>
 
-                                <div className="mt-1 h6 text-muted">
+                                <div className="mt-2 h6 text-muted">
                                     { profile.login }
                                 </div>
 
@@ -75,30 +75,18 @@ export default function Profile() {
                                 </div>
 
                                 <hr/>
-
-                                <div className="text-center">
-                                    <small>
-                                        <a 
-                                            className="text-decoration-none"
-                                            href={ profile.html_url }
-                                            target="_blank"
-                                        >
-                                            Mais Informações <i className="ms-1 fa-brands fa-github"></i>
-                                        </a>
-                                    </small>
-                                </div>
                             </div>
                         </div>
                     </div>
 
                     <div className='col-12 col-md-8'>
                         <div className="card border-0 mt-md-0 mt-3">
-                            <div className="card-header">
+                            <div>
                                 <ul className="nav nav-tabs card-header-tabs">
                                     <li className="nav-item">
                                         <a className="nav-link active position-relative" href="#">
                                             Repositories
-                                            <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-primary">
+                                            <span className="position-absolute top-0 start-100 translate-middle badge rounded-circle bg-secondary">
                                                 { repositories.length }
                                             </span>
                                         </a>

@@ -18,7 +18,7 @@ export default function Home() {
         setProfile({});
 
         if(!name) {
-            return setMessage('Informe um nome de usuário do github');
+            return setMessage('digite o nome de usuário');
         }
 
         activeLoading();
@@ -65,14 +65,14 @@ export default function Home() {
                 <div className="card border-0" style={{ maxWidth: '340px' }}>
                     <div className="card-body d-flex align-items-center flex-column">
 
-                        <Loading load={loading} text={'Buscando perfil'}/>
+                        <Loading load={loading} text={'Procurando perfil'}/>
 
                         {
                             profile.login 
                             ?
                             <Link to={`profile`} className="text-decoration-none mb-3">
                                 <small>
-                                    Perfil encontrado. Ver Informações <i className="fa-solid fa-arrow-right fa-xs ms-1"></i>
+                                    Perfil encontrado. <i className="fa-solid fa-arrow-right fa-xs ms-1"></i>
                                 </small>
                             </Link>
                             :  
@@ -81,22 +81,26 @@ export default function Home() {
                             </p>
                         }
 
-                        <div className="form-floating mb-3">
+                        <div>
+                            <p>
+                                Buscar repositório no github
+                            </p>
+                        </div>
+                        <div className="mb-3">
                             <input 
-                                className="form-control border-primary" 
+                                className="form-control border-secondary" 
                                 id="name" 
                                 onChange={(e) => setName(e.target.value)}
                                 onKeyDown={(e) => e.key === 'Enter' ? search() : null }
                                 value={name} 
-                                placeholder="Nome de desenvolvedor"
+                                placeholder="digite o nome do usuário"
                                 data-testid="input-search"
-                            />
-                            <label htmlFor="name">Nome de desenvolvedor</label>
+                            />                            
                         </div>
                     </div>
 
                     <button 
-                        className="btn btn-primary" 
+                        className="btn btn-secondary" 
                         onClick={search}
                         data-testid="btn-search"
                     >
