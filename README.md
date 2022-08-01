@@ -7,8 +7,7 @@
  <a href="#-funcionalidades">Funcionalidades</a> •
  <a href="#-layout">Layout</a> • 
  <a href="#-como-executar-o-projeto">Como executar</a> • 
- <a href="#-tecnologias">Tecnologias</a> • 
- <a href="#-autor">Autor</a>
+ <a href="#-ferramentas">Ferramentas</a> • 
 </p>
 
 
@@ -58,10 +57,10 @@ Editor utilizado [VSCode](https://code.visualstudio.com/)
 ```bash
 
 # Clone este repositório
-
+https://github.com/Giovanni017/giovanni-desafio-react.git
 
 # Acesse a pasta do projeto no terminal/cmd
-$ cd desafioatlas/app
+$ cd giovanni-desafio-react
 
 # Instale as dependências
 $ npm install
@@ -69,13 +68,13 @@ $ npm install
 # Execute a aplicação em modo de desenvolvimento
 $ npm start
 
-# O servidor inciará na porta:3333 - acesse http://localhost:3333 
+# O servidor inciará na porta:3000 - acesse http://localhost:3000 
 
 ```
 
 ---
 
-## 🛠 Tecnologias
+## 🛠 Ferramentas
 
 Ferramentas utilizadas: 
 
